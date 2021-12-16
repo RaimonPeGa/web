@@ -10,6 +10,14 @@
   position: relative;
 }
 
+.item {
+
+  border: thin solid black;
+  box-shadow: 7px 7px black;
+  background-color: #9d9c92;
+
+}
+
 .item-img {
   padding: 1em;
   background-color: #ebda73;
@@ -17,13 +25,13 @@
 
 .item img {
   max-width: 100%;
+
 }
 
 .contenido {
   position: relative;
   margin: 0 auto;
   bottom: 0;
-  border: thin solid black;
   background-color: white;
 
 }
@@ -33,6 +41,7 @@
   position: relative;
   margin: 0 auto;
   background-color: white;
+  padding-left: 13px;
 
 
 }
@@ -41,6 +50,7 @@
   position: relative;
   margin: 0 auto;
   background-color: grey;
+  padding-left: 13px;
 
 }
 
@@ -49,12 +59,16 @@
   position: relative;
   margin: 0 auto;
   background-color: white;
+  padding-left: 13px;
+
 }
 
 .descripcion4 {
   position: relative;
   margin: 0 auto;
   background-color: white;
+  padding-left: 13px;
+
 }
 
 .dblanc {
@@ -68,37 +82,4 @@
   z-index: 30;
 
 
-}
-
-.bordes {
-  position: absolute;
-  margin: 0 auto;
-  border: thin solid black;
-  background-color: #ebda73;
-  height: 100%;
-  width: 50px;
-  z-index: 20;
-
-}
-
-.border-izq {
-  position: absolute;
-  left: 0;
-
-}
-
-.border-der {
-  position: absolute;
-  right: 185px;
-
-}
-
-.top {
-  position: absolute;
-  margin: 0 auto;
-  border: thin solid black;
-  background-color: #ebda73;
-  height: 100px;
-  width: 573px;
-  z-index: 20;
 }
